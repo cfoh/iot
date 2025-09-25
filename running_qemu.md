@@ -28,7 +28,7 @@ ls ~/Downloads/EEEM048.qcow2
 ```
 
 You should see `/user/xxxx/xxxx/Downloads/EEEM048.qcow2` where `xxxx` is your user credential. 
-Copy the following command and replace `...` with the full path to the image.
+Copy the following command and replace `...` with the full path.
 
 ```
 qemu-system-x86_64 -cpu host -machine type=q35,accel=kvm -m 5000 \
@@ -37,7 +37,7 @@ qemu-system-x86_64 -cpu host -machine type=q35,accel=kvm -m 5000 \
 
 You should now see the ContikiOS Window. You can rescale the window by using `View` menu and select `Zoom In` or `Zoom Out` to adjust the size.
 
-Please make sure that you shut down Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
+Please make sure that you **shut down** Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
 
 ### Step 3: Setup the USB device
 
