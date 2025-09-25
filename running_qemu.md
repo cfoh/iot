@@ -35,7 +35,7 @@ qemu-system-x86_64 -cpu host -machine type=q35,accel=kvm -m 5000 \
   -drive if=virtio,format=qcow2,file=/user/...
 ```
 
-You should new see the ContikiOS running. You can rescale the screen by uding `View` menu and select `Zoom In` or `Zoom Out` to adject the size.
+You should new see the ContikiOS running. You can rescale the screen by using `View` menu and select `Zoom In` or `Zoom Out` to adject the size.
 
 ### Step 3: Setup the USB device
 
