@@ -19,7 +19,23 @@ Use the following command to confirm that you have downloaded the image file. It
 ls -l ~/Downloads/EEEM048.qcow2
 ```
 
-### Step 2: Setup the USB device
+### Step 2: Launch qemu from the terminal
 
-### Step 3: Launch qemu
+You need to first find the full path to the image file. You can find it by using the following command.
+
+```bash
+ls ~/Downloads/EEEM048.qcow2
+```
+
+You should see `/user/xxxx/xxxx/Downloads/EEEM048.qcow2` where `xxxx` is your user credential. 
+Copy the following command and replace `...` with the full path to the image.
+
+```
+qemu-system-x86_64 -cpu host -machine type=q35,accel=kvm -m 5000 \
+  -drive if=virtio,format=qcow2,file=/user/...
+```
+
+You should new see the ContikiOS running. You can rescale the screen by uding `View` menu and select `Zoom In` or `Zoom Out` to adject the size.
+
+### Step 3: Setup the USB device
 
