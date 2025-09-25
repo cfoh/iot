@@ -2,14 +2,21 @@
 
 ### Step 1: Copy the new image to your Download folder
 
-Since qemu is not compatible with VMware, we have converted the image to qemu native VM image format. 
-You need to copy the new image (a single file) to your Download folder.
-Note that you may need to remove the VMwave image to make space for the new image.
+Since qemu is not compatible with VMware, we have converted the image to qemu image format. 
+You need to copy the new image (a single file) to your `Downloads` folder.
+Note that you may need to delete the VMwave image to make space for the new image.
 
-Open a terminal (by [Ctrl]+[Alt]+[T]) and type the following command to copy the new image to your Download folder.
+Open a terminal (hotkey:[Ctrl]+[Alt]+[T]) and type the following command to copy the new image to your `Downloads` folder. 
+It may take a while to download the huge image file.
 
 ```bash
 cp /vol/teaching/CSEE/EEEM048.qcow2 ~/Downloads/
+```
+
+Use the following command to confirm that you have downloaded the image file. It should show the file with a size of 6810828800 bytes.
+
+```bash
+ls -l ~/Downloads/EEEM048.qcow2
 ```
 
 ### Step 2: Setup the USB device
