@@ -40,4 +40,5 @@ You should now see the ContikiOS Window. You can rescale the window by using `Vi
 Please make sure that you **shut down** Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
 
 ### Step 3: Setup the USB device
+<img width="694" height="300" alt="image" src="https://github.com/user-attachments/assets/22b8e860-2e1f-4146-b34a-3b1c67044c36" />
 
