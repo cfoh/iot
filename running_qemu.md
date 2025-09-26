@@ -99,11 +99,19 @@ This is required for the VM to run properly. After setting the OS type, click **
 <img width="456" height="400" alt="image(4)" src="https://github.com/user-attachments/assets/6d0c274f-e090-468e-89a2-665c85e6e8ea" />
 </p>  
 
-### Step 6: Configure VM resources
+### Step 6: Configure VM resources and Finish creation
 
 In the **Memory and CPU settings** window:  
 1. Set the **Memory (RAM)** to **4096 MB**.  
-2. Leave the **Number of CPUs** set to **1** (default).  
-3. Click **Finish** to complete the VM creation.  
+2. Leave the **Number of CPUs** set to **1** (default).
+3. Click **Forward**.
+4. You can set a new name for the VM if you want.
+5. Click **Finish** to complete the VM creation.  
 
 Your new VM will now appear in the list in `virt-manager`.
+
+## Launch the new VM to allow access to the XM1000 mote
+### Step 1:
+In virt-manager application you should be able to see the list of VMs that exist. Launch the VM you created, by rick click **RUN**. 
+### Step 2: 
+You should be able to **Redirect USB device** by clicking the **Virtual Machine** tab and selecting the XM1000 mote. 
