@@ -75,19 +75,35 @@ Then click **Forward** to continue.
 </p>
 
 ### Step 4: Select the VM image file
+In the next window:  
+1. Click **Browse…** to locate the VM image.  
+2. In the storage browser, click **Browse Local** to search your filesystem.  
+3. Navigate to the `/scratch` directory:  
+   - Select **+ Other Locations**  
+   - Choose **Computer**  
+   - Open the **/scratch** folder  
+4. Select the `EEEM048.qcow2` file.
 
-In the next window, click **Browse…** to locate the VM image.
 
 <p align="center">
   <img width="456" height="350" alt="image(2)" src="https://github.com/user-attachments/assets/edd0435e-3281-4b90-8221-5866f01111fa" />
   <img width="456" height="350" alt="image(3)" src="https://github.com/user-attachments/assets/d443e5c6-655b-4889-b259-427e8d29dfe8" />
 </p>
 
-Then click **Browse Local** to search your filesystem.
+### Step 5: Confirm the image path and select OS type
+Once you have selected the image, the path should now appear in the field as shown below. 
+In the **Choose the operating system you are installing** section, make sure to set the OS type to **Generic or unknown OS (Usage is not recommended).**
+This is required for the VM to run properly. After setting the OS type, click **Forward** to continue.  
 
 <p align="center">
-  
-</p>
+<img width="456" height="400" alt="image(4)" src="https://github.com/user-attachments/assets/6d0c274f-e090-468e-89a2-665c85e6e8ea" />
+</p>  
 
-Navigate to the `/scratch` directory and select the file:
+### Step 6: Configure VM resources
 
+In the **Memory and CPU settings** window:  
+1. Set the **Memory (RAM)** to **4096 MB**.  
+2. Leave the **Number of CPUs** set to **1** (default).  
+3. Click **Finish** to complete the VM creation.  
+
+Your new VM will now appear in the list in `virt-manager`.
