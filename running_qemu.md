@@ -38,6 +38,15 @@ qemu-system-x86_64 -cpu host -machine type=q35,accel=kvm -m 5000 \
 You should now see the ContikiOS Window. You can rescale the window by using `View` menu and select `Zoom In` or `Zoom Out` to adjust the size.
 
 Please make sure that you **shut down** Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
+## Create VM for XM1000 Hardware Access
+### Step 1: Copy the image to the /scratch folder
+
+```bash
+cp /vol/teaching/CSEE/EEEM048.qcow2 ~/scratch/
+```
+```bash
+ls -l /scratch/EEEM048.qcow2
+```
 
 ### Step 3: Setup the USB device
 <img width="350" height="150" alt="image" src="https://github.com/user-attachments/assets/22b8e860-2e1f-4146-b34a-3b1c67044c36" />
