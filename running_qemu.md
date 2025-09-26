@@ -42,7 +42,7 @@ Please make sure that you **shut down** Contiki inside the guest OS before closi
 ### Step 1: Copy the image to the /scratch folder
 
 ```bash
-cp /vol/teaching/CSEE/EEEM048.qcow2 ~/scratch/
+cp /vol/teaching/CSEE/EEEM048.qcow2 /scratch/
 ```
 ```bash
 ls -l /scratch/EEEM048.qcow2
