@@ -57,6 +57,12 @@ Use the following command to copy the VM image into the `/scratch` directory:
 ```bash
 cp /vol/teaching/CSEE/EEEM048.qcow2 /scratch/
 ```
+
+> **Important**
+> The image stored in `/stratch` will be kept in the local drive rather than your network drive.
+> It is important that you delete the image after the lab session.
+> It should only be used to learn how to upload and run your code in a mote. You should not use it for your coursework development.
+
 Then confirm that the file was copied successfully:
 ```bash
 ls -l /scratch/EEEM048.qcow2
