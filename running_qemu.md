@@ -135,5 +135,7 @@ Your new VM will now appear in the list in `virt-manager`. You may now launch Co
 Once you have launched ContikiOS, you can use the file menu to redirect USB device. 
 It allows you to capture XM1000 FTDI by redirecting the control from host OS to guest OS (ContikiOS).
 
-<img width="430" height="380" alt="image" src="https://github.com/user-attachments/assets/17162767-4af3-4bfe-a880-21dddc40786b" />
+<p align="center">
+<img width="645" height="570" alt="image" src="https://github.com/user-attachments/assets/17162767-4af3-4bfe-a880-21dddc40786b" />
+</p>
 
