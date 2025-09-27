@@ -3,11 +3,11 @@
 The instruction provides procedure to run ContikiOS for Cooja simulation and XM1000 mote experiment.
 You are required to develop your coursework using Cooja. 
 Optionally, you may also try to experiment with XM1000 mote for a session to understand the procedure to upload and test your code with a mote.
-- [Cooja Simulation Setup](#chapter-1:-cooja-simulation-setup)
-- [XM1000 Mote Setup](#xm1000-mote-setup) (Optional)
+- [1. Cooja Simulation Setup](#1.-cooja-simulation-setup)
+- [2. XM1000 Mote Setup](#xm1000-mote-setup) (Optional)
 
 
-## Chapter 1: Cooja Simulation Setup
+## 1. Cooja Simulation Setup
 
 ### Step 1: Copy the new image to your Download folder
 
