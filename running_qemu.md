@@ -50,6 +50,9 @@ Please make sure that you **shut down** Contiki inside the guest OS before closi
 
 ## Chapter 2: XM1000 Mote Setup
 
+Due to the complicated security and permission setup in our lab PC, it is more complicated to run ContikiOS with a mote. 
+
+
 ### Step 1: Copy the image to the `/scratch` folder
 
 Use the following command to copy the VM image into the `/scratch` directory:
@@ -61,17 +64,17 @@ cp /vol/teaching/CSEE/EEEM048.qcow2 /scratch/
 > **Important**
 > The image stored in `/stratch` will be kept in the local drive rather than your network drive.
 > It is important that you delete the image after the lab session.
-> It should only be used to learn how to upload and run your code in a mote. You should not use it for your coursework development.
+> It should only be used to learn how to upload and run your code in a mote. **You should not use it for your coursework development**.
 
-Then confirm that the file was copied successfully:
+To confirm that the file was copied successfully, do the following:
 ```bash
 ls -l /scratch/EEEM048.qcow2
 ```
 You should see a similar output to the one below (the size and date may vary):
 
-``console
+```console
 -rwxr--r-- 1 libvirt-qemu kvm 6815416320 Sep 26 15:47 /scratch/EEEM048.qcow2
-``
+```
 
 ### Step 2: Launch `virt-manager` to start VM creation
 
