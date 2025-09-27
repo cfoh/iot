@@ -50,12 +50,13 @@ Please make sure that you **shut down** Contiki inside the guest OS before closi
 
 ## Chapter 2: XM1000 Mote Setup (optional)
 
-Due to the complicated security and permission setup in our lab PC, it is more complicated to run ContikiOS with a mote. 
-
+Due to the complicated security and permission setup in our lab PCs, **it is more complicated to run ContikiOS with a mote**. 
+We shall use **Virtual Machine Manager** `virt-manager` to control our virtual machine and capture USB devices for our guest OS.
 
 ### Step 1: Copy the image to the `/scratch` folder
 
-Use the following command to copy the VM image into the `/scratch` directory:
+Unfortunately, `virt-manager` is unable to access your network drive. We need to copy the VM image from your network drive to the local drive.
+Use the following command to copy the VM image into the `/scratch` directory which is a local drive:
 
 ```bash
 cp /vol/teaching/CSEE/EEEM048.qcow2 /scratch/
@@ -104,7 +105,6 @@ In the next window:
    - Open the **/scratch** folder  
 4. Select the `EEEM048.qcow2` file.
 
-
 <p align="center">
   <img width="456" height="350" alt="image(2)" src="https://github.com/user-attachments/assets/edd0435e-3281-4b90-8221-5866f01111fa" />
   <img width="456" height="350" alt="image(3)" src="https://github.com/user-attachments/assets/d443e5c6-655b-4889-b259-427e8d29dfe8" />
@@ -128,10 +128,8 @@ In the **Memory and CPU settings** window:
 4. You can set a new name for the VM if you want.
 5. Click **Finish** to complete the VM creation.  
 
-Your new VM will now appear in the list in `virt-manager`.
+Your new VM will now appear in the list in `virt-manager`. You may now launch ContikiOS from `virt-manager`.
 
-## Launch the new VM to allow access to the XM1000 mote
-### Step 1:
-In virt-manager application you should be able to see the list of VMs that exist. Launch the VM you created, by rick click **RUN**. 
-### Step 2: 
-You should be able to **Redirect USB device** by clicking the **Virtual Machine** tab and selecting the XM1000 mote. 
+### Step 7: Capture XM1000
+
+
