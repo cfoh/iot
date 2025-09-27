@@ -1,4 +1,13 @@
-## Launch ContikiOS using `qemu`
+# Launching ContikiOS using `qemu` 
+
+The instruction provides procedure to run ContikiOS for Cooja simulation and XM1000 mote experiment.
+You are required to develop your coursework using Cooja. 
+Optionally, you may also try to experiment with XM1000 mote for a session to understand the procedure to upload and test your code with a mote.
+- [Cooja Simulation Setup](#cooja-simulation-setup)
+- [XM1000 Mote Setup](#xm1000-mote-setup) (Optional)
+
+
+## Chapter 1: Cooja Simulation Setup
 
 ### Step 1: Copy the new image to your Download folder
 
@@ -38,7 +47,9 @@ qemu-system-x86_64 -cpu host -machine type=q35,accel=kvm -m 5000 \
 You should now see the ContikiOS Window. You can rescale the window by using `View` menu and select `Zoom In` or `Zoom Out` to adjust the size.
 
 Please make sure that you **shut down** Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
-## Create VM for XM1000 Hardware Access
+
+## Chapter 2: XM1000 Mote Setup
+
 ### Step 1: Copy the image to the `/scratch` folder
 
 Use the following command to copy the VM image into the `/scratch` directory:
