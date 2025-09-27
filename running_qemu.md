@@ -4,7 +4,7 @@ The instruction provides procedure to run ContikiOS for Cooja simulation and XM1
 You are required to develop your coursework using Cooja. 
 Optionally, you may also try to experiment with XM1000 mote for a session to understand the procedure to upload and test your code with a mote.
 - [1. Cooja Simulation Setup](#chapter-1-cooja-simulation-setup)
-- [2. XM1000 Mote Setup](#chapter-2-xm1000-mote-setup) (Optional)
+- [2. XM1000 Mote Setup](#chapter-2-xm1000-mote-setup-optional) (Optional)
 
 
 ## Chapter 1. Cooja Simulation Setup
@@ -48,7 +48,7 @@ You should now see the ContikiOS Window. You can rescale the window by using `Vi
 
 Please make sure that you **shut down** Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
 
-## Chapter 2: XM1000 Mote Setup
+## Chapter 2: XM1000 Mote Setup (optional)
 
 Due to the complicated security and permission setup in our lab PC, it is more complicated to run ContikiOS with a mote. 
 
