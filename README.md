@@ -8,5 +8,5 @@ Lab 2 manual is also available here: https://github.com/cfoh/iot/blob/main/lab2.
 > We shall use `qemu` to launch ContikiOS instead.
 > The instruction is given [here](https://github.com/cfoh/iot/blob/main/running_qemu.md).
 
-> **NOTE**: If you want to test your code with XM1000 mote (optional), please follow the
+> **NOTE**: Optionally, if you want to test your code with XM1000 mote, please follow the
 > instruction given [here](https://github.com/cfoh/iot/blob/main/running_qemu_with_mote.md).
