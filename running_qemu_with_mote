@@ -1,4 +1,4 @@
-## QEMU setup for XM1000 Mote Support (optional)
+## Setup `qemu` for XM1000 Mote Support (optional)
 
 This document describes how to run `qemu` that can support code uploading to XM1000.
 
