@@ -1,6 +1,6 @@
 ## Launching ContikiOS using `qemu` 
 
-The instruction provides procedure to run ContikiOS for Cooja simulation. Note that this setup **DOES NOT** support XM1000 connectivity.
+The instruction provides procedure to run ContikiOS for Cooja simulation. Note that this setup **DOES NOT** support XM1000 connectivity. You will use Cooja simulation environment to test your code.
 
 ### Step 1: Copy the new image to your Download folder
 
