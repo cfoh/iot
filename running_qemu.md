@@ -41,3 +41,26 @@ You should now see the ContikiOS Window. You can rescale the window by using `Vi
 
 Please make sure that you **shut down** Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
 
+### Backing up your work
+
+Although the virtual machine will store your progress in the guest OS image for your next use, it is always a good practice to do your own backup. The VM image may fail to run if the VM was not shutdown properly.
+
+To **backup** your source code from the guest OS to the host OS, you need to do the following:
+- Open a terminal in the guest OS
+- Change the directory to the folder that contains the source code
+- Check to confirm that the file is in the folder
+  - type `ls hello_world.c` to confirm that `hello_world.c` is in the folder
+- Use secured copy command to copy it out to the host OS
+  - `scp hello_world.c st0013@heron25:~/Downloads`
+  - where `st0013` is your username and `heron25` is the hostname of the host PC
+- You'll be prompted to enter your password. This is the password of your university account
+- Your source code should now appear in your host OS under `Downloads` folder
+
+To **restore** your source code from the host OS to the guest OS, you need to do the following:
+- Open a terminal in the guest OS
+- Change the directory to the folder that should receive the source code
+- Use secured copy command to copy it from the host OS
+  - `scp st0013@heron25:~/Downloads/hello_world.c ./`
+  - where `st0013` is your username and `heron25` is the hostname of the host PC
+- You'll be prompted to enter your password. This is the password of your university account
+- Your source code should now appear in your guest OS
