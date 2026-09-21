@@ -41,7 +41,7 @@ You should now see the ContikiOS Window. You can rescale the window by using `Vi
 
 Please make sure that you **shut down** Contiki inside the guest OS before closing the window, otherwise, your work may not be saved properly.
 
-### Backing up your work
+### Backing up and restoring your work
 
 Although the virtual machine will store your progress in the guest OS image for your next use, it is always a good practice to do your own backup. The VM image may fail to run if the VM was not shutdown properly.
 
