@@ -49,7 +49,7 @@ To **backup** your source code from the guest OS to the host OS, you need to do 
 - Open a terminal in the guest OS
 - Change the directory to the folder that contains the source code
 - Check to confirm that the file is in the folder
-  - type `ls hello_world.c` to confirm that `hello_world.c` is in the folder
+  - type `ls hello_world.c` to confirm that the file you want to backup, i.e. `hello_world.c` is in the folder
 - Use secure copy command to copy it out to the host OS
   - `scp hello_world.c st0013@heron25:~/Downloads`
   - where `st0013` is your username and `heron25` is the hostname of the host PC
