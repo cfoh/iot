@@ -50,7 +50,7 @@ To **backup** your source code from the guest OS to the host OS, you need to do 
 - Change the directory to the folder that contains the source code
 - Check to confirm that the file is in the folder
   - type `ls hello_world.c` to confirm that `hello_world.c` is in the folder
-- Use secured copy command to copy it out to the host OS
+- Use secure copy command to copy it out to the host OS
   - `scp hello_world.c st0013@heron25:~/Downloads`
   - where `st0013` is your username and `heron25` is the hostname of the host PC
 - You'll be prompted to enter your password. This is the password of your university account
@@ -59,7 +59,7 @@ To **backup** your source code from the guest OS to the host OS, you need to do 
 To **restore** your source code from the host OS to the guest OS, you need to do the following:
 - Open a terminal in the guest OS
 - Change the directory to the folder that should receive the source code
-- Use secured copy command to copy it from the host OS
+- Use secure copy command to copy it from the host OS
   - `scp st0013@heron25:~/Downloads/hello_world.c ./`
   - where `st0013` is your username and `heron25` is the hostname of the host PC
 - You'll be prompted to enter your password. This is the password of your university account
