@@ -1,6 +1,6 @@
 ### EEEM086/EEEM048/COM3023
 
-Lab 1 manual is available here: (available soon).
+Lab 1 manual is available here: [(PDF)](https://github.com/cfoh/iot/blob/main/Lab%20Session%201%20-%20Setup%20and%20Hello%20World.pdf).
 
 Lab 2 manual is also available here: (available soon).
 
